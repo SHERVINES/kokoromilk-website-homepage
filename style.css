@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9e4f5;
+}
+.container {
+  background-color: #fff;
+  width: 1040px;
+  margin: 60px auto;
+  border-radius: 25px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px;
+}
+.logo img {
+  width: 100px;
+}
+header i {
+  color: #ac5acb;
+}
+
+section .order-image img {
+  width: 532px;
+  border-radius: 30% 70% 70% 30% / 30% 32% 68% 70%;
+  object-fit: cover;
+}
+section .order-image img:hover {
+  animation: shadow-drop-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 75px;
+}
+.order h3 {
+  font-size: 3.5rem;
+  line-height: 65px;
+}
+
+.order p {
+  color: #909090;
+  line-height: 30px;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+.order-image {
+  margin-left: 40px;
+}
+.order-text a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #9bddc1;
+  padding: 22px 30px;
+  border-radius: 12px;
+  transition: all 0.4s;
+}
+.order-text i {
+  margin-left: 23px;
+}
+.order-text a:hover {
+  color: #000;
+}
+.product-img {
+  width: 330px;
+  height: 392px;
+  border-radius: 55px 55px 0 0;
+  background: url(./img/blue.png);
+  background-size: cover;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 60px;
+  gap: 60px;
+  padding: 0 75px;
+}
+.discover h3 {
+  font-size: 3.4rem;
+}
+.list ul {
+  list-style: none;
+  font-size: 1.1rem;
+}
+.list ul li {
+  margin: 20px;
+  text-align: center;
+}
+.list ul a:hover {
+  color: #fff;
+  background: #8cd8fc;
+}
+
+.list a {
+  border-radius: 20px;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+.list {
+  display: flex;
+}
+.list img {
+  width: 30px;
+}
+.detail h3 {
+  font-size: 2.2rem;
+  margin-top: 20px;
+}
+.detail p {
+  color: #909090;
+  line-height: 30px;
+  margin-top: 25px;
+}
+.detail ul {
+  display: flex;
+  list-style: none;
+}
+.detail ul li {
+  padding: 10px;
+}
+.detail ul a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #8cd8fc;
+}

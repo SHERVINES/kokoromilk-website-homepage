@@ -1,0 +1,6 @@
+<i class="fa-regular fa-arrow-right"></i>
+<i class="fa-solid fa-basket-shopping"></i>
+
+<i class="fa-duotone fa-wine-bottle"></i> special
+<i class="fa-thin fa-wine-bottle"></i> juice
+<i class="fa-regular fa-wine-bottle"></i> orginal
